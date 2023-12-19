@@ -102,7 +102,8 @@ body{
     gap: 50px;
 }
 .maintext p{
-    font-size: 16px;
+    font-family: inter;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
@@ -206,6 +207,7 @@ h1{
     gap: 24px;
     border-radius: 16px;
     background-color: white;
+    cursor: pointer;
     box-shadow: 0px 2px 4px -2px 
     rgba(16, 24, 40, 0.06),
      0px 4px 8px -2px 
@@ -378,6 +380,7 @@ h1{
     align-items: flex-start;
     gap: 16px;
     align-self: stretch;
+    cursor: pointer;
     border-radius: 16px;
     box-shadow: 0px 1px 2px 0px 
     rgba(16, 24, 40, 0.06), 
@@ -459,6 +462,7 @@ h1{
     display: flex;
     flex-direction: column;
     width: 632px;
+    cursor: pointer;
     border: solid 0.5px #F4F4F4;
     border-radius: 34px 34px 0px 0px;
 }

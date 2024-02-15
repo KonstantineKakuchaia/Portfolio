@@ -51,6 +51,7 @@ body{
        
 }
 .navbar a{
+    font-family:Inter ;
     display: inline-block;
     text-decoration: none;
     padding:15px 7px;
@@ -88,28 +89,30 @@ body{
 .maindiv{
     display: flex;
     justify-content: space-between;
-    padding-right: 80px;
+    padding-right: 200px;
     gap: 80px;
     max-width: 1536px;
     background-color: #F6F8FF;
+    align-items: center;
 }
 .maintext{
     display: flex;
     flex-direction: column;
     max-width: 590px;
-    padding: 112px 0px 80px 80px;
+    padding: 60px 0px 45px 80px;
     align-items: flex-start;
     gap: 50px;
 }
 .maintext p{
-    font-family: inter;
-    font-size: 20px;
+    font-family: Inter;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
     color: #1C1C57; 
 }
 .p1{
+    font-family: Inter;
     margin-top: 75px;
 }
 h1{
@@ -122,10 +125,10 @@ h1{
 }
 .image{
     height: 100%;
-    padding-top: 122px;
 }
 .infobtn{
     padding: 16px 80px;
+    margin-bottom: 50px;
 }
 /*2 page*/
 .sec-page{
@@ -206,8 +209,8 @@ h1{
     align-items: flex-start;
     gap: 24px;
     border-radius: 16px;
-    background-color: white;
     cursor: pointer;
+    background-color: white;
     box-shadow: 0px 2px 4px -2px 
     rgba(16, 24, 40, 0.06),
      0px 4px 8px -2px 
@@ -294,6 +297,7 @@ h1{
 .thperc div{
     display: flex;
     flex-direction: column;
+    cursor: pointer;
     width: 30%;
     border-radius: 8px;
     background: var(--foundation-blue-blue-2, #FDFDFF);
@@ -462,9 +466,9 @@ h1{
     display: flex;
     flex-direction: column;
     width: 632px;
-    cursor: pointer;
     border: solid 0.5px #F4F4F4;
     border-radius: 34px 34px 0px 0px;
+    cursor: pointer;
 }
 .menu-card img{
     width: 100%;

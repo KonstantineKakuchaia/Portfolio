@@ -4,9 +4,6 @@
     margin: 0;
     padding: 0;
 }
-body{
-    /* overflow-x: hidden; */
-}
 .green-button{
     padding: 16px 24px;
     justify-content: center;
